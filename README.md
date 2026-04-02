@@ -1,4 +1,13 @@
-# Argentum TCG
+# Argentum Trading Card Game - Gestor de Cartas Argentum
+
+<img width="305" height="424" alt="image" src="https://github.com/user-attachments/assets/0e094810-ea64-4c5d-b34f-16322653e698" />
+
+<img width="301" height="424" alt="image" src="https://github.com/user-attachments/assets/ccc8ae13-5f37-4136-9e1a-82652dd5fcde" />
+
+
+
+
+---
 
 Argentum TCG es una plataforma web para crear, revisar y votar cartas coleccionables estilo Magic: The Gathering. Los usuarios registrados pueden diseñar cartas con imágenes personalizadas (recorte con zoom y posición), definirlas con tipo, subtipo, estadísticas (ataque/vida), costo de maná y descripción. Las cartas creadas quedan pendientes de revisión; un administrador las approve o rechaza. Las cartas aprobadas aparecen en la Galería pública donde cualquier usuario puede ver su detalle y votar (1-5 estrellas). La Galería soporta vista en grilla o lista para facilitar la navegación y comparación.
 
