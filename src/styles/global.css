@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Roboto+Mono:wght@400;500&display=swap');
+:root {
+  --color-bg-primary: #1a1a2e;
+  --color-bg-secondary: #16213e;
+  --color-bg-card: #0f0f23;
+  --color-accent-gold: #c9a227;
+  --color-accent-red: #8b0000;
+  --color-text-primary: #e8e8e8;
+  --color-text-secondary: #a0a0a0;
+  --color-success: #2d5a27;
+  --color-warning: #b8860b;
+  --color-error: #8b0000;
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Crimson Text', serif;
+  --font-mono: 'Roboto Mono', monospace;
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 20px rgba(201, 162, 39, 0.3);
+  --border-radius: 4px;
+  --transition: 300ms ease-out;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-body); background: var(--color-bg-primary); color: var(--color-text-primary); line-height: 1.6; min-height: 100vh; }
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); font-weight: 600; letter-spacing: 0.05em; }
+a { color: var(--color-accent-gold); text-decoration: none; transition: color var(--transition); }
+a:hover { color: #e8c547; }
+button { font-family: var(--font-heading); cursor: pointer; border: none; outline: none; transition: all var(--transition); }
+input, textarea, select { font-family: var(--font-body); font-size: 1rem; }
+#root { min-height: 100vh; display: flex; flex-direction: column; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }

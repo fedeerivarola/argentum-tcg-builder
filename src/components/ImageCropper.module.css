@@ -1,0 +1,20 @@
+.cropContainer {
+  max-height: 400px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background: var(--color-bg-card);
+  border-radius: 8px;
+}
+
+.cropContainer img {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}

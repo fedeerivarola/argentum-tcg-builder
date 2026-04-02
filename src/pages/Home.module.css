@@ -1,0 +1,18 @@
+.page { padding: 2rem 1rem; max-width: 1200px; margin: 0 auto; }
+.hero { text-align: center; padding: 3rem 1rem; margin-bottom: 2rem; }
+.heroTitle { font-size: 2.5rem; color: var(--color-accent-gold); margin-bottom: 1rem; }
+.heroSubtitle { font-size: 1.2rem; color: var(--color-text-secondary); max-width: 600px; margin: 0 auto 2rem; }
+.heroButtons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; }
+.statCard { background: var(--color-bg-secondary); border: 2px solid rgba(201, 162, 39, 0.3); border-radius: 8px; padding: 1.5rem; text-align: center; transition: all var(--transition); }
+.statCard:hover { border-color: var(--color-accent-gold); box-shadow: var(--shadow-glow); }
+.statValue { font-family: var(--font-mono); font-size: 2.5rem; font-weight: bold; color: var(--color-accent-gold); }
+.statLabel { font-family: var(--font-heading); font-size: 0.9rem; color: var(--color-text-secondary); margin-top: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.section { margin-bottom: 3rem; }
+.sectionHeader { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
+.sectionTitle { font-size: 1.5rem; color: var(--color-accent-gold); display: flex; align-items: center; gap: 0.5rem; }
+.cardGrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
+.emptyState { text-align: center; padding: 3rem; background: var(--color-bg-secondary); border: 2px dashed rgba(201, 162, 39, 0.3); border-radius: 8px; }
+.emptyIcon { font-size: 3rem; color: var(--color-text-secondary); margin-bottom: 1rem; }
+.emptyTitle { font-family: var(--font-heading); font-size: 1.25rem; color: var(--color-text-primary); margin-bottom: 0.5rem; }
+.emptyText { color: var(--color-text-secondary); margin-bottom: 1.5rem; }

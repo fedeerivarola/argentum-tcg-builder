@@ -1,0 +1,11 @@
+.ratingContainer { display: flex; gap: 0.25rem; }
+.star { font-size: 1.5rem; cursor: pointer; transition: all 150ms ease; color: #444; }
+.star:hover { transform: scale(1.15); }
+.star.filled { color: var(--color-accent-gold); }
+.readOnly .star { cursor: default; }
+.readOnly .star:hover { transform: none; }
+.small .star { font-size: 1rem; }
+.small .star:hover { transform: scale(1.1); }
+.display { display: flex; align-items: center; gap: 0.5rem; }
+.displayValue { font-family: var(--font-mono); font-size: 1rem; color: var(--color-accent-gold); }
+.voteCount { font-size: 0.85rem; color: var(--color-text-secondary); }

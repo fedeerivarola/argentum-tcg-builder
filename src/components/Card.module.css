@@ -1,0 +1,23 @@
+.cardContainer { perspective: 1000px; }
+.card { width: 300px; height: 420px; background: linear-gradient(145deg, #2a2a4a 0%, #1a1a2e 50%, #0f0f23 100%); border-radius: 12px; overflow: hidden; box-shadow: var(--shadow-card); transition: all var(--transition); cursor: pointer; position: relative; border: 3px solid rgba(201, 162, 39, 0.4); }
+.card:hover { transform: scale(1.03) translateY(-5px); box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6), var(--shadow-glow); border-color: var(--color-accent-gold); }
+.cardImage { width: 100%; height: 200px; object-fit: cover; background: var(--color-bg-card); }
+.cardContent { padding: 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.cardHeader { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; }
+.cardTitle { font-family: var(--font-heading); font-size: 1.1rem; color: var(--color-accent-gold); flex: 1; line-height: 1.2; }
+.manaCost { font-family: var(--font-mono); font-weight: bold; font-size: 1.2rem; color: #4fc3f7; background: rgba(79, 195, 247, 0.15); padding: 0.2rem 0.5rem; border-radius: 4px; min-width: 32px; text-align: center; }
+.cardType { font-size: 0.85rem; color: var(--color-text-secondary); text-transform: capitalize; }
+.cardDescription { font-size: 0.9rem; color: var(--color-text-primary); line-height: 1.4; max-height: 3.5rem; overflow: hidden; text-overflow: ellipsis; }
+.cardFooter { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 0.5rem; border-top: 1px solid rgba(201, 162, 39, 0.2); }
+.stats { display: flex; gap: 1rem; }
+.stat { font-family: var(--font-mono); font-weight: bold; font-size: 1rem; display: flex; align-items: center; gap: 0.25rem; }
+.statAttack { color: #ef5350; }
+.statLife { color: #66bb6a; }
+.rating { display: flex; align-items: center; gap: 0.25rem; font-family: var(--font-mono); font-size: 0.9rem; }
+.starIcon { color: var(--color-accent-gold); }
+.statusBadge { position: absolute; top: 10px; right: 10px; padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.75rem; font-family: var(--font-heading); text-transform: uppercase; letter-spacing: 0.05em; z-index: 1; }
+.statusPending { background: var(--color-warning); color: #000; }
+.statusApproved { background: var(--color-success); color: #fff; }
+.statusRejected { background: var(--color-error); color: #fff; }
+.statusPublished { background: var(--color-accent-gold); color: #000; }
+.artistCredit { font-size: 0.75rem; color: var(--color-text-secondary); font-style: italic; }

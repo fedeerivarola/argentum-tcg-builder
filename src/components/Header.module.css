@@ -1,0 +1,19 @@
+.header { background: var(--color-bg-secondary); border-bottom: 2px solid rgba(201, 162, 39, 0.3); position: sticky; top: 0; z-index: 100; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; display: flex; align-items: center; justify-content: space-between; height: 70px; }
+.logo { font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; color: var(--color-accent-gold); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; }
+.logoIcon { font-size: 1.75rem; }
+.nav { display: flex; gap: 0.5rem; }
+.navLink { font-family: var(--font-heading); font-size: 0.9rem; color: var(--color-text-primary); padding: 0.5rem 1rem; border-radius: var(--border-radius); transition: all var(--transition); text-decoration: none; letter-spacing: 0.03em; }
+.navLink:hover { background: rgba(201, 162, 39, 0.15); color: var(--color-accent-gold); }
+.navLinkActive { background: rgba(201, 162, 39, 0.2); color: var(--color-accent-gold); }
+.userSection { display: flex; align-items: center; gap: 1rem; }
+.userName { font-family: var(--font-heading); font-size: 0.9rem; color: var(--color-text-secondary); }
+.userName span { color: var(--color-accent-gold); }
+.adminBadge { background: var(--color-accent-red); color: #fff; font-size: 0.7rem; padding: 0.2rem 0.5rem; border-radius: 4px; font-family: var(--font-heading); text-transform: uppercase; margin-left: 0.5rem; }
+.dropdown { position: relative; }
+.dropdownTrigger { background: none; border: none; color: var(--color-text-primary); cursor: pointer; padding: 0.5rem; font-size: 1.25rem; transition: color var(--transition); }
+.dropdownTrigger:hover { color: var(--color-accent-gold); }
+.dropdownMenu { position: absolute; top: 100%; right: 0; background: var(--color-bg-card); border: 1px solid rgba(201, 162, 39, 0.3); border-radius: var(--border-radius); min-width: 150px; padding: 0.5rem 0; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); animation: fadeIn 150ms ease-out; }
+.dropdownItem { display: block; width: 100%; padding: 0.6rem 1rem; background: none; border: none; color: var(--color-text-primary); text-align: left; cursor: pointer; font-family: var(--font-body); font-size: 0.95rem; transition: all var(--transition); }
+.dropdownItem:hover { background: rgba(201, 162, 39, 0.1); color: var(--color-accent-gold); }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }

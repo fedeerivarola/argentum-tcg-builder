@@ -1,0 +1,12 @@
+.formGroup { margin-bottom: 1.25rem; }
+.label { display: block; font-family: var(--font-heading); font-size: 0.9rem; color: var(--color-accent-gold); margin-bottom: 0.4rem; letter-spacing: 0.05em; }
+.required::after { content: ' *'; color: var(--color-accent-red); }
+.input, .textarea, .select { width: 100%; padding: 0.75rem 1rem; background: var(--color-bg-card); border: 2px solid rgba(201, 162, 39, 0.3); border-radius: var(--border-radius); color: var(--color-text-primary); font-size: 1rem; transition: all var(--transition); }
+.input:focus, .textarea:focus, .select:focus { outline: none; border-color: var(--color-accent-gold); box-shadow: 0 0 10px rgba(201, 162, 39, 0.2); }
+.input::placeholder, .textarea::placeholder { color: var(--color-text-secondary); }
+.input.error, .textarea.error, .select.error { border-color: var(--color-error); }
+.textarea { min-height: 100px; resize: vertical; }
+.select { cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23c9a227' d='M6 8L1 3h10z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 1rem center; padding-right: 2.5rem; }
+.helperText, .errorText { font-size: 0.85rem; margin-top: 0.3rem; }
+.errorText { color: var(--color-error); }
+.helperText { color: var(--color-text-secondary); }
