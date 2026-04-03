@@ -1,4 +1,4 @@
-# Argentum Trading Card Game - Gestor de Cartas Argentum
+# Argentum Trading Card Game - Gestor Build de Cartas Argentum
 <p align="center">
   <img src="https://img.shields.io/badge/React-18-blue">
   <img src="https://img.shields.io/badge/Firebase-Firestore-orange">
